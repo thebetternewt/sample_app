@@ -2,6 +2,7 @@
 <html>
   <head>
     <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    <%= favicon_link_tag 'ruby.png', rel: 'shortcut icon apple-touch-icon', type: 'image/png' %>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>

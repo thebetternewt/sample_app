@@ -9,7 +9,7 @@ gem 'rails',                   '5.1.2'
 gem 'puma',                    '3.9.1'
 gem 'bootstrap-sass',          '3.3.7'
 gem 'sass-rails',              '5.0.6'
-gem 'will_paginate',           '3.1.5'
+gem 'will_paginate',           '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'uglifier',                '3.2.0'
 gem 'coffee-rails',            '4.2.2'
@@ -36,6 +36,7 @@ group :test do
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.14.1'
   gem 'guard-minitest',           '2.4.6'
+  gem 'factory_girl_rails'
 end
 
 group :production do

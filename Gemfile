@@ -20,7 +20,7 @@ gem 'bcrypt',                  '3.1.11'
 gem 'faker',                   '1.7.3'
 gem 'carrierwave',             '1.1.0'
 gem 'mini_magick',             '4.8.0'
-gem 'fog',                     '1.41.0'
+gem 'fog-aws',                 '1.4.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
